@@ -154,7 +154,7 @@ html {
 #slider { 
    margin-top: 46.5px;
    padding-top: 50%;
-   background-image: url(/assets/img/chicago.jpg) ;
+   background-image: url('https://www.w3schools.com/w3images/chicago.jpg') ;
    background-repeat: no-repeat;
    background-position: top center;
    background-size: 100%; 
