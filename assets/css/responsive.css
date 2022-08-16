@@ -1,0 +1,122 @@
+/* MOBILE  */
+@media(max-width: 740px){
+    /* HEADER  */
+
+    #nav .more-mobile{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    
+    /* END HEADER  */
+
+
+    /* PSEUDO-CLASSES 
+     first child nghĩa là đứa con đầu tiên là css vào thẻ li đầu tiên 
+    last child là đứa con cuối cùng nghĩa là thẻ li cuối sẽ đc css */
+    #nav>li:first-child {
+        display:inline-block;
+    }
+    #nav{
+        display: block;
+    }
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav li:hover a {
+        width: 100%;
+    }
+    /* SLIDER */
+    #slider .text-content{
+        display: none;
+    }
+    /* END SLIDER  */
+    
+    /* CONTENT */
+    #content .name-img {
+        width: 60%;
+        border-radius: 4px;
+    }
+ 
+    /* END CONTENT  */
+
+    /* TOUR LIST  */
+    .place-item-ny,
+    .place-item-par,
+    .place-item-san{
+        margin-bottom: 16px;
+        width: 100%;
+        max-width: none;
+    }
+    .row {
+        margin-left: -8px;
+        margin-right: 8px;
+    }
+    /* END TOUR LIST  */
+
+    /* CONTACT  */
+    .contact-infor {
+        width: 100%;
+        display: block;
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    .fill-box {
+        display: block;
+        width: 100%;
+        float: right;
+    }
+    .name-btn {
+        padding: 8px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    .email-btn {
+        padding: 8px 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        position: static;
+        margin-left: auto;
+    }
+    .send-btn{
+        margin-bottom: 128px;
+    }
+
+    /* END CONTACT  */
+
+    #nav li{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+
+    }
+    .member-item{
+        float: none;
+        width: 100%;
+    }
+
+   
+}
+/* PC  */
+@media(min-width: 740px){
+    .mobile-menu-btn{
+        display: none;
+    }
+    #nav .merch-btn-mobile{
+        display: none;
+    }
+    #nav .more-mobile{
+        display: inline-block;
+    }
+   
+
+}
+/* TABLET  */
+@media(min-width: 740px) and (max-width: 1240px){
+
+}
